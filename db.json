@@ -10,5 +10,40 @@
       "nombre": "Nico",
       "apellido": "Otro"
     }
+  ],
+  "expedientes": [
+      {
+        id: 1,
+        numeroExpediente: "Exp001/2025",
+        nif: "12345678A",
+        email: 'ejemplo@email.com',
+        estadoId: 1,
+        estado: 'Activo',
+        fecha: new Date('2023-01-01'),
+        nombre: 'Antonio',
+        apellido: 'Otro'
+      },
+      {
+        id: 2,
+        numeroExpediente: "Exp002/2025",
+        nif: "87654321B",
+        email: 'ejemplo2@email.com',
+        estadoId: 2,
+        estado: 'Inactivo',
+        fecha: new Date('2023-03-01'),
+        nombre: 'Juan',
+        apellido: 'Otro'
+      },
+      {
+        id: 3,
+        numeroExpediente: "Exp003/2025",
+        nif: "11111111C",
+        email: 'ejemplo3@email.com',
+        estadoId: 3,
+        estado: 'Activo',
+        fecha: new Date('2022-03-01'),
+        nombre: 'Pedro',
+        apellido: 'Otro'
+      }  
   ]
 }
